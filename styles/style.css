@@ -1,10 +1,9 @@
 :root{
-    --clr-dark: oklch(14.1% 0.005 285.823);
-    --clr-lightPink: oklch(81% 0.117 11.638);    
-    --clr-pink: oklch(65.6% 0.241 354.308);    
-    --clr-light: oklch(98.4% 0.003 247.858);    
-    --clr-neon: oklch(84.1% 0.238 128.85);    
-
+    --clr-dark:      #09090B;
+    --clr-lightPink: #FFA1AD;
+    --clr-pink:      #F6339A;
+    --clr-light:     #F8FAFC;
+    --clr-neon:      #9AE600;
 }
 
 
@@ -24,7 +23,7 @@ html {
 body{
     font-family: 'Panchang', sans-serif;
     background-color: var(--clr-dark);
-    color: var(--clr-pink);
+    color: var(--clr-lightPink);
 }
 
 img,
@@ -47,4 +46,8 @@ cursor: pointer;
 
 a{
     cursor: pointer;
+    color: var(--clr-neon);
+}
+strong{
+    color: var(--clr-neon)
 }
