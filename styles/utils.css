@@ -15,24 +15,67 @@
     transform: translate(-3px);
     box-shadow: 0 9px 20px rgba(255, 161, 173, 0.25), 0 10px 10px 
     rgba(255, 161, 173, 0.22), 0 0 50px -10px var(--clr-lightPink);
+    
+     background: linear-gradient(
+    90deg,
+    #ff6bb8,
+    #f6339a,
+    #c81f78
+  );
+
+    transition: background-color 0.3s ease;
+    transition-delay: 0.07s;
 }
 
-/* .container {}*/
+.container {
+   width: 100%;
+   margin-left: auto;
+   margin-right: auto;
+   padding-left: 0.5rem;
+   padding-right: 0.5rem;
+   border: 1px solid red;
+
+}
 
 /* xs */
-/* @media (min-width: 475px){} */
+@media (min-width: 475px){
+    .container{
+        max-width: 475px;
+    }
+}
 
 /* sm */
-/* @media (min-width: 640px){} */
+@media (min-width: 640px){
+    .container{
+        max-width: 640px;
+    }
+}
 
 /* md */
-/* @media (min-width: 768px){} */
+@media (min-width: 768px){
+    .container{
+        max-width: 768px;
+    }
+}
 
 /* Lg */
-/* @media (min-width: 1024px){} */
+@media (min-width: 1024px){
+     .container{
+        max-width: 1024px;
+    }
+
+}
 
 /* xL */
-/* @media (min-width: 1280px){} */
+@media (min-width: 1280px){
+     .container{
+        max-width: 1280px;
+    }
+}
 
 /* 2xL */
-/* @media (min-width: 1536px){} */
+@media (min-width: 1536px){
+     .container{
+        max-width: 1536px;
+    }
+}

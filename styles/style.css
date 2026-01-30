@@ -7,11 +7,6 @@
 }
 
 
-
-
-
-
-
 *{
     margin: 0;
     line-height: calc(1em + 0.5rem);
@@ -21,9 +16,11 @@ html {
 }
 
 body{
+
+    /* FontSpace - FT Vortex, Maskneyes Font, Evil Sound, Undeath*/
     font-family: 'Panchang', sans-serif;
     background-color: var(--clr-dark);
-    color: var(--clr-lightPink);
+    color: var(--clr-pink);
 }
 
 img,
