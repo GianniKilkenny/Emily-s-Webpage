@@ -1,3 +1,36 @@
+/* xs */
+/* @media (min-width: 475px){
+
+} */
+
+/* sm */
+/* @media (min-width: 640px){
+
+} */
+
+/* md */
+/* @media (min-width: 768px){
+
+} */
+
+/* Lg */
+/* @media (min-width: 1024px){
+
+
+} */
+
+/* xL */
+/* @media (min-width: 1280px){
+
+} */
+
+/* 2xL */
+/* @media (min-width: 1536px){
+
+} */
+/*  */
+
+
 .btn{
     display: inline-block;
     font-weight: 600;
@@ -10,6 +43,7 @@
     box-shadow: 0 5px 10px rgba(255, 161, 173, 0.4), 0 6px 6px 
     rgba(255, 161, 173, 0.4), 0 0 75px -10px var(--clr-lightPink);
     transition: transform 0.3s, box-shadow 0.3s;
+    text-decoration: none;
 }
 .btn:hover{
     transform: translate(-3px);
@@ -33,7 +67,10 @@
    margin-right: auto;
    padding-left: 0.5rem;
    padding-right: 0.5rem;
-   border: 1px solid red;
+}
+
+.section{
+    margin-top: 5rem;
 
 }
 
@@ -63,6 +100,10 @@
      .container{
         max-width: 1024px;
     }
+    .section{
+    margin-top: 5rem;
+    
+}
 
 }
 
