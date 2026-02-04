@@ -35,9 +35,15 @@ html {
 body{
 
     /* FontSpace - FT Vortex, Maskneyes Font, Evil Sound, Undeath*/
-    font-family: 'Panchang', sans-serif;
+    font-family: 'Vortex', sans-serif;
     background-color: var(--clr-dark);
     color: var(--clr-pink);
+}
+@font-face{
+    font-family: 'Vortex';
+    src: url('../fonts/FtVortex-G#ZDy.otf')format('truetype');
+    font-weight: normal;
+    font-style: normal;
 }
 
 img,
