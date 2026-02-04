@@ -35,13 +35,13 @@ html {
 body{
 
     /* FontSpace - FT Vortex, Maskneyes Font, Evil Sound, Undeath*/
-    font-family: 'Vortex', sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     background-color: var(--clr-dark);
     color: var(--clr-pink);
 }
 @font-face{
     font-family: 'Vortex';
-    src: url('../fonts/FtVortex-G#ZDy.otf')format('truetype');
+    src: url('../fonts/FtVortex-G3ZDy.otf')format('opentype');
     font-weight: normal;
     font-style: normal;
 }
@@ -69,5 +69,5 @@ a{
     color: var(--clr-neon);
 }
 strong{
-    color: var(--clr-neon)
+    color: var(--clr-neon);
 }
