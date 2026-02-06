@@ -33,7 +33,7 @@
 }
 .hero__record{
     font-family: 'Times New Roman', Times, serif;
-    font-size: var(--size-xl);
+    font-size: var(--size-lg);
     margin-bottom: 1rem;
 }
 .hero__description{
@@ -151,30 +151,30 @@
 
 .hero__title{
     font-family: 'Vortex';
-    font-size: var(--size-9xl);
+    font-size: var(--size-8xl);
 }
 .hero__subtitle{
     color: var(--clr-light);
     font-family: 'Times New Roman', Times, serif;
-    font-size: var(--size-5xl);
+    font-size: var(--size-4xl);
 }
 .hero__intro{
     font-family: 'Inter';
     text-transform: uppercase;
-    font-size: var(--size-7xl);
+    font-size: var(--size-6xl);
     letter-spacing: -0.05em;
     line-height: .9;
     color: var(--clr-neon);
 }
 .hero__record{
     font-family: 'Times New Roman', Times, serif;
-    font-size: var(--size-5xl);
+    font-size: var(--size-4xl);
     margin-bottom: 1rem;
 }
 .hero__description{
     font-family: 'Inter';
     color: var(--clr-light);
-    font-size: var(--size-3xl);
+    font-size: var(--size-2xl);
     line-height: .9;
 }
 

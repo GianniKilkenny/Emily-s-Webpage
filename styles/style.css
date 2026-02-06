@@ -45,6 +45,12 @@ body{
     font-weight: normal;
     font-style: normal;
 }
+@font-face{
+    font-family: 'Panchang';
+    src: url('../fonts/FontshareKit-2602000775/Panchang/Fonts/OTF/Panchang-Medium.otf')format('opentype');
+     font-weight: normal;
+    font-style: normal;
+}
 
 img,
 picture,
