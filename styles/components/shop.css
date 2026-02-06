@@ -1,74 +1,65 @@
-.shop{
-    text-align: center;
+.shop {
+  text-align: center;
 }
 
-.shop__title{
-    
-    font-size: var(--size-4xl);
-    color: var(--clr-pink);
-    font-family: 'Vortex';
-    margin-bottom: 1rem;
+.shop__title {
+  font-size: var(--size-4xl);
+  color: var(--clr-pink);
+  font-family: "Vortex";
+  margin-bottom: 1rem;
 }
 
-
-.shop__item-title{
-    font-family: 'Panchang';
-    font-size: var(--size-base);
-    margin-bottom: 2rem;
-    margin-top: 4rem;
-    letter-spacing: .2rem;
-    word-spacing: .27rem;
+.shop__item-title {
+  font-family: "Panchang";
+  font-size: var(--size-base);
+  margin-bottom: 2rem;
+  margin-top: 4rem;
+  letter-spacing: 0.2rem;
+  word-spacing: 0.27rem;
 }
 
-.shop__button{
-    font-size: var(--size-sm);
-    margin: 1rem 0;
+.shop__button {
+  font-size: var(--size-sm);
+  margin: 1rem 0;
 }
-.shop__description{
-    color: var(--clr-light);
-    font-size: var(--size-base);
-}
-
-.product__image-ice{
-    width: clamp(375px, 60vw, 600px);
-    aspect-ratio: 1/1;
-    overflow: hidden;
-    margin: 2rem 0;
-    margin-inline: auto;
-    padding: 1rem;
-    
+.shop__description {
+  color: var(--clr-light);
+  font-size: var(--size-base);
 }
 
-.product__image-ice img{
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    display: block;
+.product__image-ice {
+  width: clamp(375px, 60vw, 600px);
+  aspect-ratio: 1/1;
+  overflow: hidden;
+  margin: 2rem 0;
+  margin-inline: auto;
+  padding: 1rem;
+}
+
+.product__image-ice img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
 
   outline: 1px solid rgba(255, 255, 255, 0.08);
   outline-offset: -1px;
   border-radius: 14px;
-
 }
 
-
-
-
-
 /* xs */
-@media (min-width: 475px){
-.shop__title{
+@media (min-width: 475px) {
+  .shop__title {
     text-align: center;
     font-size: var(--size-5xl);
     color: var(--clr-pink);
-    font-family: 'Vortex';
-}
+    font-family: "Vortex";
+  }
 
-.shop__item-title{
+  .shop__item-title {
     font-size: var(--size-xl);
     margin-bottom: 1rem;
-}
-
+  }
 }
 
 /* sm */
@@ -82,34 +73,32 @@
 } */
 
 /* Lg */
-@media (min-width: 1024px){
-.shop__title{
+@media (min-width: 1024px) {
+  .shop__title {
     text-align: center;
     font-size: var(--size-6xl);
     color: var(--clr-pink);
-    font-family: 'Vortex';
-    
-}
+    font-family: "Vortex";
+  }
 
-.shop__item-title{
+  .shop__item-title {
     font-size: var(--size-2xl);
     margin-bottom: 1rem;
-}
+  }
 }
 
 /* xL */
-@media (min-width: 1280px){
-.shop__title{
+@media (min-width: 1280px) {
+  .shop__title {
     text-align: center;
     font-size: var(--size-6xl);
     color: var(--clr-pink);
-    font-family: 'Vortex';
-    
-}
-.shop__item-title{
+    font-family: "Vortex";
+  }
+  .shop__item-title {
     font-size: var(--size-3xl);
     margin-bottom: 1rem;
-}
+  }
 }
 
 /* 2xL */

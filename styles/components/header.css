@@ -1,20 +1,20 @@
-.header{
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    padding-top: 2rem;
-    padding-bottom: 2rem;
+.header {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
 }
 
-  .header__menu{
-   display: none;
+.header__menu {
+  display: none;
 }
 
-.header__bars{
-display: block;
-color: var(--clr-light);
-height: var(--size-2xl);
-width: var(--size-2xl);
+.header__bars {
+  display: block;
+  color: var(--clr-light);
+  height: var(--size-2xl);
+  width: var(--size-2xl);
 }
 
 /* xs */
@@ -28,72 +28,66 @@ width: var(--size-2xl);
 } */
 
 /* md */
-@media (min-width: 768px){
-    .header__menu{
+@media (min-width: 768px) {
+  .header__menu {
     display: flex;
     align-items: center;
     list-style: none;
     gap: 2em;
     padding: 0px;
-}
+  }
 
-.header__link{
+  .header__link {
     text-decoration: none;
     font-size: var(--size-xs);
     font-weight: 600;
-    letter-spacing: -.05rem;
+    letter-spacing: -0.05rem;
     transition: color 0.3s;
-}
+  }
 
-.header__link:hover{
+  .header__link:hover {
     color: var(--clr-pink);
-}
+  }
 
-.header__line{
+  .header__line {
     border: 1px solid var(--clr-pink);
     padding-top: 1.5em;
-}
+  }
 
-.header__sun {
+  .header__sun {
     display: block;
     color: var(--clr-light);
     width: var(--size-base);
     height: var(--size-base);
-    
-}
+  }
 
-.header__cart{
+  .header__cart {
     display: block;
     color: var(--clr-light);
     width: var(--size-base);
     height: var(--size-base);
-}
+  }
 
-.header__bars{
+  .header__bars {
     display: none;
-}
-
+  }
 }
 
 /* Lg */
-@media (min-width: 1024px){
-    
-.header__link{
+@media (min-width: 1024px) {
+  .header__link {
     font-size: var(--size-sm);
+  }
 
-}
-
-.header__sun {
+  .header__sun {
     width: var(--size-xl);
     height: var(--size-xl);
-    
-}
+  }
 
-.header__cart{
+  .header__cart {
     width: var(--size-xl);
     height: var(--size-xl);
-}
-
+  }
 }
 
 /* xL */
@@ -105,5 +99,3 @@ width: var(--size-2xl);
 /* @media (min-width: 1536px){
 
 } */
-
-
