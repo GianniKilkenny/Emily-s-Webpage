@@ -27,10 +27,11 @@
 .shop__description{
     color: var(--clr-light);
     font-size: var(--size-base);
+    font-family: 'Inter';
 }
 
 .product__image{
-    width: clamp(375px, 45vw, 475px);
+    width: clamp(300px, 312, 475px);
     aspect-ratio: 1/1;
     margin: 2rem 0;
     margin-inline: auto;
@@ -90,10 +91,42 @@
 @media (min-width: 640px){
     .shop__container{
         display: grid;
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: minmax(0,1fr)minmax(0,1fr);
+        grid-template-areas: 
+        'image1 content1'
+        'content2 image2'
+        'image3 content3';
+
+
+
+
+
         place-items: center;
         padding-right: 8px;
+        padding-top: .5rem;
+        padding-bottom: .5rem;
+        border: 1px solid red;
     }
+
+    .shop__image1{
+        grid-area: image1;
+    }
+    .shop__image2{
+        grid-area: image2;
+    }
+    .shop__image3{
+        grid-area: image3;
+    }
+    .shop__content1{
+        grid-area: content1;
+    }
+    .shop__content2{
+    grid-area: content2;
+    }
+    .shop__content3{
+    grid-area: content3;
+    }
+
 
     .shop__item-title{
         display: none;
@@ -101,21 +134,30 @@
     .shop__grid-title{
     display: block;
     font-family: 'Panchang';
-    font-size: var(--size-xl);
-    margin-bottom: 2rem;
-    margin-top: 4rem;
+    
+    margin-bottom: 1rem;
+    margin-top: 2rem;
     letter-spacing: .2rem;
     word-spacing: .27rem;
 }
 .shop__description{
-    font-size: var(--sizexl);
+    font-size: var(--size-base);
 }
 }
 
 /* md */
-/* @media (min-width: 768px){
-
-} */
+@media (min-width: 768px){
+.shop__item-title{
+    font-size: var(--size-2xl);
+}
+.shop__description{
+    font-size: var(--size-lg);
+}
+.shop__button{
+    font-size: var(--size-lg);
+   
+    }
+}
 
 /* Lg */
 @media (min-width: 1024px){
@@ -124,13 +166,17 @@
     font-size: var(--size-6xl);
     color: var(--clr-pink);
     font-family: 'Vortex';
-    
-}
-
+    }
 .shop__item-title{
     font-size: var(--size-2xl);
-    margin-bottom: 1rem;
 }
+.shop__description{
+    font-size: var(--size-lg);
+}
+.shop__button{
+    font-size: var(--size-lg);
+   
+    }
 }
 
 /* xL */
@@ -146,9 +192,17 @@
     font-size: var(--size-3xl);
     margin-bottom: 1rem;
 }
+.shop__container{
+    width: 80%;
+    margin: 0 auto;
+}
 }
 
 /* 2xL */
-/* @media (min-width: 1536px){
-
-} */
+@media (min-width: 1536px){
+    .shop__container{
+    width: 70%;
+    margin: 0 auto;
+}
+    
+}

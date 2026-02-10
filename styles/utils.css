@@ -42,18 +42,20 @@
   box-shadow:
     0 5px 10px rgba(255, 161, 173, 0.4),
     0 6px 6px rgba(255, 161, 173, 0.4),
-    0 0 75px -10px var(--clr-lightPink);
+    0 0 20px -10px var(--clr-lightPink);
   transition:
     transform 0.3s,
     box-shadow 0.3s;
   text-decoration: none;
+  font-family: 'Inter'
+
 }
 .btn:hover {
   transform: translate(-3px);
   box-shadow:
     0 9px 20px rgba(255, 161, 173, 0.25),
     0 10px 10px rgba(255, 161, 173, 0.22),
-    0 0 50px -10px var(--clr-lightPink);
+    0 0 30px -10px var(--clr-lightPink);
 
   background: linear-gradient(90deg, #ff6bb8, #f6339a, #c81f78);
 
