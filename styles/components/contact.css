@@ -1,19 +1,25 @@
-
-
-.contact__title{
-    font-family: 'Vortex';
-    font-size: var(--size-3xl);
-   
+.contact {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 1.5rem;
+  margin-bottom: 2rem;
 }
-.contact__description{
-    font-size: var(--size-base-);
-    color: var(--clr-light);
 
-    text-align: center;
-    font-family: 'Inter';
+.contact__title {
+  font-family: "Vortex";
+  font-size: var(--size-3xl);
 }
-.contact__email{
-    font-size: var(--size-xs);
+.contact__description {
+  font-size: var(--size-base-);
+  color: var(--clr-light);
+
+  text-align: center;
+  font-family: "Inter";
+}
+.contact__email {
+  font-size: var(--size-xs);
 }
 /* xs */
 /* @media (min-width: 475px){
