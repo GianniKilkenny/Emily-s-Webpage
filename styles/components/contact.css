@@ -21,6 +21,12 @@
 .contact__email {
   font-size: var(--size-xs);
 }
+
+.instagram__icon svg{
+    height: 24px;
+    width: 24px;
+    color: red;
+}
 /* xs */
 /* @media (min-width: 475px){
 
